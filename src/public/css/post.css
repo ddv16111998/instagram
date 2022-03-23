@@ -1,0 +1,59 @@
+
+.main .posts{
+    width: 60%;
+}
+.main .posts .post {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 60px;
+}
+
+.main .posts .post .name {
+    margin-left: 10px;
+}
+
+.main .posts .post .account{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+;
+}
+
+.main .posts .post .more-options{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.main .posts .post .actions{
+    margin-top: 25px;
+}
+
+.main .posts .post .react-and-comment{
+    padding-top: 15px;
+}
+
+.main .posts .post .react-and-comment textarea{
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+    background-color: #FAFAFA;
+}
+.main .posts .post .btn-comment{
+    text-align: right;
+}
+
+.main .posts .post .right.button-save {
+    text-align: right;
+}
+
+.favorite-comment-share span{
+    padding-right: 20px;
+}

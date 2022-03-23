@@ -1,0 +1,43 @@
+.header{
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    position: fixed;
+    z-index: 10000;
+}
+
+.instagram .header .icon-logo{
+    padding-top: 5px;
+}
+.instagram .header .input-search{
+    border: none;
+    background-color: #EFEFEF;
+    border-radius: 7px;
+    height: 35px;
+    width: 270px;
+    padding: 15px 45px;
+}
+.instagram .header .input-search:focus{
+    outline: none;
+}
+
+.instagram .header .search{
+    position: relative;
+}
+.instagram .header .icon-search{
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+.instagram .header .list-action{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.instagram .header .list-action .logo-profile{
+    width: 27px;
+    height: 27px;
+}

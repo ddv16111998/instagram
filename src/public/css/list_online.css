@@ -1,0 +1,27 @@
+.list-friend-onl li{
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.list-friend-onl li .avatar-and-online{
+    position: relative;
+    padding-right: 10px;
+}
+.list-friend-onl li .avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.list-friend-onl li .status-online{
+    width: 9px;
+    height: 9px;
+    background-color: #00ac40;
+    border-radius: 50%;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+}
