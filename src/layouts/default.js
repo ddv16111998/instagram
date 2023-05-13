@@ -8,10 +8,10 @@ function Default() {
     let listPosts = [
         {
             'author': {
-                'name' : "viendd",
+                'name' : "viendd1",
                 'avatar' : '../public/images/logo-user.png'
             },
-            'title' : "PHP",
+            'title' : "PHP1",
             'description': 'abcd',
             'favorited': false,
             'total_like' : 200,
